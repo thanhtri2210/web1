@@ -1,0 +1,17 @@
+.form{
+	border: double gold;
+	background-image: url(form1.jpg);
+	max-width: 300px;
+	margin: 300px auto;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+.form-control{
+	margin: 5px;
+	padding-bottom: 5px;
+}
+body{
+	background-image: url(form2.jpg);
+}
+

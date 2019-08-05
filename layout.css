@@ -1,0 +1,241 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	max-width: 1920px;
+	height: 1000PX;
+	margin: 0 auto;
+	position: relative;
+}
+.container> header{
+	position: relative;
+	height/width =1/4;
+	background-image: url("1.jpg");
+	background-size: 100% 100%;
+	height: 0px;
+	padding-bottom: 25%;
+
+}
+.container> nav{
+	line-height: 40px;
+	background-color: #6BF142;
+	color: white;
+	text-align: left;
+	font-variant: small-caps;
+	border: 5px double gold;
+}
+.container> article{
+	min-height: 100%;
+	width: 70%;
+	background-color: #EEEEEE;
+	float: left;
+}
+.container> aside{
+	min-height: 100%;
+	width: 30%;
+	background-color: #FFFFCC;
+	float: right;
+}
+.container>footer{
+	border-top:5px double gold;
+	line-height:25px;
+	background-color:green;
+	text-align:left;
+	font-variant:large;
+	clear:both;
+}
+.container>nav>a{
+	color:white;
+	text-decoration:none;
+	margin:0 10px;
+}
+.container>nav>a{
+	color:yellow;
+	text-decoration:underline;
+
+}
+iframe[name=page]{
+	width: 100%;
+	min-height: 400px;
+}
+.vmenu{
+	padding: 0px;
+	margin: 5px;
+	list-style: none;
+	border-radius: 3px;
+	box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+	background-color: white;
+	display: block;
+	color: orangered;
+	font-variant: small-caps;
+	font-size: larger;
+	text-decoration: none;
+	padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+
+	border-bottom: 1px solid white;
+	background-color: orangered;
+	color: white;
+	font-weight: bold;
+}
+.col-25{
+	padding-top:5px; 
+	width: 100%;
+	float: left;
+}
+.news{
+	border-radius: 10px;
+	box-shadow: 0 0 5px gray;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	position: relative;
+	background-color: white;
+}
+.top-right{
+	position: absolute;
+	top: 0px;
+	right:0px;
+	background-color: #99FFFF;
+	line-height: 20px;
+	font-size: 20px;
+	margin: 10px;
+}
+.company{
+	left: 200px;
+	padding-top: 15px;
+
+}
+.menu>ul>li{
+	display: inline-block;
+	position: relative;
+}
+.menu>ul>li>a{
+	display: block;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: larger;
+	color: white;
+	padding: 0 10px;
+	line-height: 40px;
+}
+.menu>ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-radius: 3px;
+	background-color: #08D33B;
+	text-align: center;	
+}
+.menu>ul>li>a:hover{
+	color: #B50DDA;
+}
+.menu ul ul{
+	background-color: white;
+	position: absolute;
+	display: none;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-radius: 3px;
+	width: 200px;
+	box-shadow: 0 0 1px gray;
+
+}
+.menu ul ul a{
+	color: green;
+	display: block;
+	line-height: 30px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: large;
+	padding: 0 10px;
+
+}
+.menu>ul>li:hover>ul{
+	display: block;
+	z-index: 1;
+}
+.menu ul ul a:hover{
+	background-color: green;
+	color: white;
+}
+table{
+	width: 100%;
+	border-radius: 5px;
+	text-align: left;
+	border: 2px solid black;
+}
+.tieude{
+	background-color: #00FF00;
+	color:white;
+	text-align: center;
+}
+.col-26{
+	padding-top:15px; 
+	width: 90%;
+	padding-left: 50px;
+	float: left;
+}
+.thethao{
+	border: dashed;
+	border-width: 1px;
+	text-align: left;
+	background-color: white;
+}
+.head1{
+	background:green;
+	color: white;
+	text-align: center;
+}
+.tieude1{
+	background: #7EFF33;
+	color: black;
+	max-width: 100%;
+	text-align: center;
+}
+.lich{
+	width: 100%;
+	height: 100%;
+	background-color: #009966;
+	padding-top: 20px;
+}
+.body1{
+	width: 30px;
+	height: 40px;
+	text-align: center;
+	font-size: large;
+}
+.bangthidau{
+	padding-top: 50px;
+}
+.tieude2{
+	background: #66CCFF;
+	color: black;
+	max-width: 100%;
+	text-align: center;
+	border:dotted green;
+}
+.newsbongro{
+	border-radius: 10px;
+	box-shadow: 0 0 5px gray;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	position: relative;
+}
+.hinh{
+	text-align: center;
+}
+.video{
+	text-align: center;
+}
+.noidung{
+	text-align: left;
+	font-size: large;
+}
+
